@@ -48,8 +48,6 @@ nltk.download('stopwords')
 import sys
 print(sys.executable)
 
-
-
 def fetch_yt_video(link):
     video = pafy.new(link)
     return video.title
